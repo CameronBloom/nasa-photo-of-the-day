@@ -1,0 +1,37 @@
+.image {
+  border: 1px solid palegoldenrod;
+}
+
+.image h3 {
+  border: 1px solid paleturquoise;
+  color: green;
+}
+
+.image img {
+  border: 1px solid palevioletred;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Flexbox Parent Properties 
+ * =========================
+ * display: flex
+ * flex-direction: row, row-reverse, column, column-reverse
+ * flex-wrap: nowrap, wrap, wrap-reverse
+ * justify-content: flex-start, flex-end, start, end, left, right, center, space-between, space-around, space-evenly
+ * align-content: flex-start, flex-end, center, stretch, space-between, space-around
+ * align-items: flex-start, flex-end, center, stretch, baseline
+ * gap / row-gap / column-gap: 1rem;
+ *
+ */
+
+/* Flexbox Child Properties 
+ * ========================
+ * order
+ * flex-shrink
+ * flex-grow
+ * flex-basis
+ * align-self
+ *
+ */
