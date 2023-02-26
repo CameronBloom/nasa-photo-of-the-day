@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
+import axios from "axios";
+import { API_KEY } from "./constants";
 
 function App() {
+  const [photo, setPhoto] = useState("")
+
+  // useEffect(() => {
+  //   axios
+  //     .get(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`)
+  //     .then(res => console.log(res.data))
+  //     .catch(err => console.log(err))
+  // }, []);
+
   return (
     <div className="App">
       <p>
