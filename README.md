@@ -56,7 +56,7 @@ This project was put together using create-react-app (CRA). You will not need to
 - [x] You don't _need_ an API key. However you may need one if you exceed the API request limits.
 - [x] Using the endpoint given, fetch the data using `axios`.
 - [x] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
-- [ ] Before you add your data to state, make sure your effect hook has a dependency array (probably empty, since we don't want this effect synced up to any state/props), otherwise you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to use a real API_KEY.**
+- [x] Before you add your data to state, make sure your effect hook has a dependency array (probably empty, since we don't want this effect synced up to any state/props), otherwise you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to use a real API_KEY.**
 
 DEMO KEY rate limits:
 
@@ -75,8 +75,8 @@ Now is the time to build out your other components. Compose your UI, and then pa
 
 #### _MVP Requirements:_
 
-- [ ] Use the effect hook to fetch the APOD data when the component mounts.
-- [ ] Display the APOD data in different components that are composed together to build your UI.
+- [x] Use the effect hook to fetch the APOD data when the component mounts.
+- [x] Display the APOD data in different components that are composed together to build your UI.
 
 #### Pro Tips
 
@@ -105,7 +105,7 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 
 Follow these steps for completing your project.
 
-- [ ] Submit a link to your repository in Canvas.
+- [x] Submit a link to your repository in Canvas.
 
 ----
 
